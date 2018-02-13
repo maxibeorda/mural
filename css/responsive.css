@@ -1,0 +1,114 @@
+@media screen and (min-width:300px) and (max-width:420px){
+	.container-all{
+		width: 90%;
+		padding-bottom: 30px;
+	}
+
+	.current-plan{
+		width: 90%;
+	}
+
+	.choose-plan-title, .title-questions{
+		width: 90%;
+	}
+
+	.choose-plan-selector{
+		width: 90%;
+		height: 1000px;
+		margin: 30px auto 47px;
+	}
+
+	.choose-plan-description{
+		width: 90%;
+	}
+
+	.title {
+	    font-size: 1.2rem;
+	    padding: 40px 0 30px 0;
+	}
+
+	.box-plan-left p span:nth-child(1) {
+    	font-size: 14px;
+	}
+
+	.free-trial {
+    	font-size: 20px;
+	}
+
+	.box-plan-left{
+		text-align: center;
+		float: initial;
+	}
+
+	.current-plan {
+		border-bottom: 0px;
+	}
+
+	.box-plan-right {
+    	float: initial;
+    	margin-top: 10px
+    }
+
+    .box-plan-right p{
+    	text-align: center;
+    }
+
+    .box-plan-right hr{
+    	width: 100%;
+    	margin-top: 15px;
+    }
+
+    .choose-plan-title {
+    	margin: 70px auto 0px;
+    }
+
+    .choose-plan-title, .title-questions{
+    	font-size: 20px;
+    	height: 80px;
+    }
+
+    .startup-plan, .business-plan, .enterprise-plan{
+    	width: 100%;
+    }
+
+    .business-plan {
+	    padding: 0px 10px 0px 10px;
+	    margin-left: -10px;
+	}
+
+	.business-links a {
+	    margin: 34px 0 0 15%;
+	}
+
+	.enterprise-links a, .enterprise-links2 a {
+	    margin: 10px 0 0 40px;
+	}
+
+	.choose-plan-title, .title-questions {
+	    line-height: 30px;
+	}
+
+	.plan-description{
+		width: 90%;
+		line-height: initial;
+		float: initial;
+		padding: 0 20px;
+		margin-top: 20px;
+	}
+
+	.line-plans{
+		display: none;
+	}
+
+	.plan-description hr{
+		margin-top: 20px;
+	}
+
+	.plansname {
+		margin: 20px 0 0px 0;
+	}
+
+	.plan-description ul {
+	    line-height: 30px;
+	}
+}

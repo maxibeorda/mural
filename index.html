@@ -1,0 +1,197 @@
+<!doctype html>
+
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>MURAL | TEST</title>
+  <link rel="icon" sizes="57x57" href="https://mural.co/public/assets/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+
+<body>
+
+<div class="cont-logo">
+	<a href="#"><img class="logo" src="img/logo.svg" alt="Mural" title="Mural"></a>
+</div>
+
+
+<div class="container-all">
+ 
+	<div class="title">
+		<h1 class="uppercase">READY TO TAKE THE NEXT STEP?</h1>
+	</div>
+
+	<div class="current-plan">
+		<div class="box-plan-left">
+			<p>
+				<span class="uppercase">current plan:</span></br>
+				<span class="free-trial bold">Free 30 Day Trial</span></br>
+				<span class="fontsize18">You have: <span class="bold">13 days left</span></span>
+			</p>
+		</div>
+
+		<div class="box-plan-right">
+			<p>
+				Your team currently contains <span class="color-pink">12 members</span></br>Want to manage your team members?
+				<hr>
+			</p>
+		</div>
+	</div>
+
+	<div class="choose-plan-title">
+		<h1>Choose a plan that works best for your needs and your team size.</br>And leave some room to grow!</h1>
+	</div>
+
+	<div class="choose-plan-selector">
+		<div class="startup-plan">
+			<h3>Startup</h3>
+			<div class="users-plan">
+				<span>5</span>
+				<p>users</p>
+			</div>
+			<form action="#">
+			  <input type="radio" name="plan" value="month" checked><span class="month">$29</span><label class="nada">/ month</label><br>
+			  <input type="radio" name="plan" value="year"><span class="year">$300</span> <label class="nada">/ year</label><br>
+			  <input type="submit" class="submit" value="CHOOSE THIS PLAN">
+			</form>
+		</div>
+
+		<div class="business-plan">
+			<h3>Business</h3>
+			<div class="users-plan">
+				<span id="demo"></span>
+				<p>users</p>
+			</div>
+
+			<div class="range-users">				
+				<div class="slidecontainer">
+				  <input type="range" min="5" max="100" value="1" class="slider" id="myRange">
+				</div>				 
+			</div>
+
+			<div class="business-year"><span>$</span><span id="demo2">600</span> / year</div>
+
+				<script>
+					var slider = document.getElementById("myRange");
+					var output = document.getElementById("demo");
+					var output2 = document.getElementById("demo2");
+
+					output.innerHTML = slider.value;
+
+					slider.oninput = function() {
+					  output.innerHTML = this.value;
+					  output2.innerHTML = this.value * 120;
+					}
+				</script>
+
+			<div class="business-links">
+				<a href="#">CHOOSE THIS PLAN</a>
+			</div>
+		</div>
+
+		<div class="enterprise-plan">
+			<h3>Enterprise</h3>
+			<div class="users-plan">
+				<span>30+</span>
+				<p>users</p>
+			</div>
+			<div class="enterprise-links">
+				<a href="#">LEARN MORE</a>
+			</div>
+			<div class="enterprise-links2">
+				<a href="#">CONTACT US</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="title-questions">
+		<h1>Questions? <span class="bold"><a href="mailto:example@mural.com">Send us an email</a></span>, or give us a call at <span class="bold"><a href="tel:14158003524">+1 (415) 800 3524</a></span></h1>
+	</div>
+
+	<div class="choose-plan-description">
+		<div class="plan-description">
+			<p><span class="bold">CHOOSE THIS PLAN IF YOU'RE A...</span></br>
+			Growing startup</p>
+				<div><span class="point">.</span></div>
+				<p>Freelancer with a few rotating clients</p>
+			<hr>
+			<p class="plansname">STARTUP includes:</p>
+			<ul>
+				<li> 5 Project Rooms</li>
+				<li>xGB Storage</li>
+				<li>Visual Thinking Tools</li>
+				<li>Collaboration Tools</li>
+				<li>Self-Service Support</li>
+				<li>–</li>
+				<li>–</li>
+				<li>–</li>
+				<li>–</li>
+				<li>–</li>
+				<li>–</li>
+			</ul>
+		</div>
+
+		<div class="line-plans"></div>
+
+		<div class="plan-description">
+			<p><span class="bold">CHOOSE THIS PLAN IF YOU'RE A...</span></br>
+			Growing startup</p>
+				<div><span class="point">.</span></div>
+				<p>Freelancer with a few rotating clients</p>
+			<hr>
+			<p class="plansname">Business includes:</p>
+			<ul>
+				<li>Unlimited Rooms</li>
+				<li>Unlimited Storage</li>
+				<li>Visual Thinking Tools</li>
+				<li>Collaboration Tools</li>
+				<li>Priority Support</li>
+				<li>Larger Team Sizes</li>
+				<li>Custom Templates</li>
+				<li>Guest Accounts</li>
+				<li>–</li>
+				<li>–</li>
+				<li>–</li>
+			</ul>
+		</div>
+
+		<div class="line-plans"></div>
+
+		<div class="plan-description">
+			<p><span class="bold">CHOOSE THIS PLAN IF YOU'RE A...</span></br>
+			Growing startup</p>
+				<div><span class="point">.</span></div>
+				<p>Freelancer with a few rotating clients</p>
+			<hr>
+			<p class="plansname">ENTERPRISE includes:</p>
+			<ul>
+				<li> 5 Project Rooms</li>
+				<li>xGB Storage</li>
+				<li>Visual Thinking Tools</li>
+				<li>Collaboration Tools</li>
+				<li>On-Call Customer Success Manager</li>
+				<li>Multiple Teams</li>
+				<li>Custom Templates</li>
+				<li>Guest Accounts</li>
+				<li>Enterprise-Grade Security</li>
+				<li>Admin Dashboard & Analytics</li>
+				<li>Single Sign-On SAML Integration</li>
+			</ul>
+		</div>
+
+
+
+	</div>
+
+</div>
+
+</body>
+</html>
